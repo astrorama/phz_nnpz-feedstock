@@ -14,7 +14,7 @@ source:
 build:
     number: {{ build_number }}
     run_exports:
-      - {{ pin_subpackage('alexandria', max_pin='x.x.x') }}
+      - {{ pin_subpackage('phz_nnpz', max_pin='x.x.x') }}
 
 requirements:
     build:

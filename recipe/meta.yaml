@@ -45,7 +45,7 @@ requirements:
         - matplotlib
         - scipy
         - requests
-        - sklearn
+        - scikit-learn
 
 test:
     commands:

@@ -40,6 +40,7 @@ requirements:
         - {{ pin_compatible('CCfits', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('cfitsio', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('astropy', min_pin='x.x', max_pin='x') }}
+        - libcfitsio
         - fitsio
         - matplotlib
         - scipy

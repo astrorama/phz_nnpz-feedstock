@@ -1,6 +1,6 @@
 {% set name = "phz_nnpz" %}
 {% set version = "1.3.0" %}
-{% set tagversion = "1.3.0" %}
+{% set tagversion = "release-1.3" %}
 {% set build_number = 0 %}
 
 package:

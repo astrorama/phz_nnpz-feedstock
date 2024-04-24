@@ -24,7 +24,7 @@ requirements:
         - make
         - {{ compiler('cxx') }}
         - {{ compiler('c') }}
-        - libcxx<16
+        - libcxx>=16.0,<16.1.0a0
     host:
         - python
         - boost 

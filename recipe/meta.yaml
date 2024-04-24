@@ -37,9 +37,12 @@ requirements:
         - {{ pin_compatible('python', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('boost', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('libcxx', min_pin='x.x', max_pin='x.x') }}
-        - {{ pin_compatible('cfitsio', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('CCfits', min_pin='x.x', max_pin='x.x') }}
+        - {{ pin_compatible('cfitsio', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('astropy', min_pin='x.x', max_pin='x') }}
+        - matplotlib
+        - scipy
+        - requests
 
 test:
     commands:

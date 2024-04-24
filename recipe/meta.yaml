@@ -29,9 +29,10 @@ requirements:
         - python
         - boost 
         - pybind11
+        - astropy
         - libcxx<16
         - alexandria ==2.31.1
-        - cfitsio >=4.2
+        - cfitsio >=3.470
         - CCfits >=2.5
     run:
         - {{ pin_compatible('python', min_pin='x.x', max_pin='x.x') }}

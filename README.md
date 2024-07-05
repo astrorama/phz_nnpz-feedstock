@@ -1,5 +1,5 @@
 About phz_nnpz-feedstock
-==========================
+========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/astrorama/phz_nnpz-feedstock/blob/main/LICENSE.txt)
 
@@ -7,7 +7,7 @@ Home: https://github.com/astrorama/PHZ_NNPZ.git
 
 Package license: LGPL
 
-Summary: SDC-CH common library for the Euclid project
+Summary: SDC-CH Nearest Neighbor Photometric Redshift Tool
 
 Current build status
 ====================
@@ -20,7 +20,7 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+          <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
             <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main">
           </a>
         </summary>
@@ -29,84 +29,105 @@ Current build status
           <tbody><tr>
               <td>linux_64_python3.10.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.11.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                  <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.11.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                  <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64_python3.10.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64_python3.11.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                  <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64_python3.8.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64_python3.9.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=2&branchName=main">
+                <a href="https://dev.azure.com/astrorama/feedstock-builds/_build/latest?definitionId=None&branchName=main">
                   <img src="https://dev.azure.com/astrorama/feedstock-builds/_apis/build/status/phz_nnpz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
@@ -126,9 +147,9 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-phz_nnpz-green.svg)](https://anaconda.org/astrorama/phz_nnpz) | [![Conda Downloads](https://img.shields.io/conda/dn/astrorama/phz_nnpz.svg)](https://anaconda.org/astrorama/phz_nnpz) | [![Conda Version](https://img.shields.io/conda/vn/astrorama/phz_nnpz.svg)](https://anaconda.org/astrorama/phz_nnpz) | [![Conda Platforms](https://img.shields.io/conda/pn/astrorama/phz_nnpz.svg)](https://anaconda.org/astrorama/phz_nnpz) |
 
 Installing phz_nnpz
-=====================
+===================
 
-Installing `PHZ_NNPZ` from the `astrorama` channel can be achieved by adding `astrorama` to your channels with:
+Installing `phz_nnpz` from the `astrorama` channel can be achieved by adding `astrorama` to your channels with:
 
 ```
 conda config --add channels astrorama
@@ -176,7 +197,7 @@ mamba repoquery depends phz_nnpz --channel astrorama
 
 
 Updating phz_nnpz-feedstock
-=============================
+===========================
 
 If you would like to improve the phz_nnpz recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,

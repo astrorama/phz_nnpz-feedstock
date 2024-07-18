@@ -16,6 +16,9 @@ build:
     run_exports:
       - {{ pin_subpackage('phz_nnpz', max_pin='x.x.x') }}
 
+test:
+    commands:
+        - $PREFIX/bin/NnpzCompleteReferenceSample --version
 requirements:
     build:
         - python                             # [build_platform != target_platform]
@@ -46,10 +49,6 @@ requirements:
         - scipy
         - requests
         - scikit-learn
-
-test:
-    commands:
-        - $PREFIX/bin/NnpzCompleteReferenceSample --version
 
 about:
     home: https://github.com/astrorama/PHZ_NNPZ.git

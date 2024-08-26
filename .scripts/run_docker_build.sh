@@ -101,8 +101,6 @@ docker run ${DOCKER_RUN_ARGS} \
            -e remote_url \
            -e sha \
            -e BINSTAR_TOKEN \
-           -e GIT_TOKEN \
-           -e GIT_USER \
            "${DOCKER_IMAGE}" \
            bash \
            "/home/conda/feedstock_root/${PROVIDER_DIR}/build_steps.sh"
@@ -112,3 +110,4 @@ test -f "$DONE_CANARY"
 
 # This closes the last group opened in `build_steps.sh`
 ( endgroup "Final checks" ) 2> /dev/null
+

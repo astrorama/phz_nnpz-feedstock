@@ -15,8 +15,6 @@ provider:
 azure:
   store_build_artifacts: False
 
-secrets: ["GIT_USER", "GIT_TOKEN"]
-
 recipe_dir: recipe
 
 skip_render:

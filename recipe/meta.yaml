@@ -1,7 +1,7 @@
 {% set name = "phz_nnpz" %}
 {% set version = "1.4.2" %}
 {% set tagversion = "1.4.2" %}
-{% set build_number = 0 %}
+{% set build_number = 1 %}
 
 package:
     name: {{ name|lower }}
@@ -21,7 +21,6 @@ test:
         - $PREFIX/bin/NnpzCompleteReferenceSample --version
 requirements:
     build:
-        - git-lfs
         - python                             # [build_platform != target_platform]
         - cross-python_{{ target_platform }} # [build_platform != target_platform]
         - cmake >=3.0
@@ -30,6 +29,7 @@ requirements:
         - {{ compiler('c') }}
         - libcxx
         - cfitsio >=3.470
+        - pybind11
     host:
         - python
         - boost 

@@ -23,7 +23,7 @@ requirements:
     build:
         - python                             # [build_platform != target_platform]
         - cross-python_{{ target_platform }} # [build_platform != target_platform]
-        - cmake <3.26.0
+        - cmake >=3.25,<4.0
         - setuptools
         - make
         - {{ compiler('cxx') }}
@@ -38,7 +38,6 @@ requirements:
         - alexandria ==2.31.3
         - cfitsio >=3.470
         - CCfits >=2.5
-        - pybind11 >=2.6
     run:
         - {{ pin_compatible('python', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('boost', min_pin='x.x', max_pin='x.x') }}

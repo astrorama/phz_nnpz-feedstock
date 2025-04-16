@@ -30,7 +30,6 @@ requirements:
         - {{ compiler('c') }}
         - libcxx
         - cfitsio >=3.470
-        - pybind11 >=2.6
     host:
         - python
         - boost 
@@ -38,6 +37,7 @@ requirements:
         - alexandria ==2.31.3
         - cfitsio >=3.470
         - CCfits >=2.5
+        - pybind11 >=2.6
     run:
         - {{ pin_compatible('python', min_pin='x.x', max_pin='x.x') }}
         - {{ pin_compatible('boost', min_pin='x.x', max_pin='x.x') }}

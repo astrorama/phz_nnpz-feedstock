@@ -1,6 +1,6 @@
 About phz_nnpz-feedstock
 ========================
-
+ 
 Feedstock license: [BSD-3-Clause](https://github.com/astrorama/phz_nnpz-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/astrorama/PHZ_NNPZ.git

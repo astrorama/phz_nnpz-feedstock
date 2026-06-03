@@ -1,7 +1,7 @@
 {% set name = "phz_nnpz" %}
 {% set version = "1.4.3" %}
 {% set tagversion = "1.4.3" %}
-{% set build_number = 0 %}
+{% set build_number = 1 %}
 
 package:
     name: {{ name|lower }}
@@ -32,7 +32,7 @@ requirements:
         - python
         - boost 
         - libcxx
-        - alexandria ==2.31.3
+        - alexandria ==2.32.2
         - cfitsio >=3.470
         - CCfits >=2.5
         - pybind11 >=2.6

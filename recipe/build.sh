@@ -45,3 +45,12 @@ cmake -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
     "${SRC_DIR}"
 
 make install ${MAKEFLAGS}
+
+mkdir -p "$PREFIX/etc/conda/activate.d"
+mkdir -p "$PREFIX/etc/conda/deactivate.d"
+
+cp "$RECIPE_DIR/activate.sh" \
+   "$PREFIX/etc/conda/activate.d/${PKG_NAME}_activate.sh"
+
+cp "$RECIPE_DIR/deactivate.sh" \
+   "$PREFIX/etc/conda/deactivate.d/${PKG_NAME}_deactivate.sh"

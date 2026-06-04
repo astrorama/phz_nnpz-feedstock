@@ -1,6 +1,6 @@
-if [ -n "${_OLD_AUX_DIR+x}" ]; then
-  export AUX_DIR="${_OLD_AUX_DIR}"
-  unset _OLD_AUX_DIR
+if [ -n "${_OLD_AUX_PATH+x}" ]; then
+  export ELEMENTS_AUX_PATH="${_OLD_AUX_PATH}"
+  unset _OLD_AUX_PATH
 else
-  unset AUX_DIR
+  unset ELEMENTS_AUX_PATH
 fi

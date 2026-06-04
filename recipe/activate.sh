@@ -1,2 +1,2 @@
-export _OLD_AUX_DIR="${AUX_DIR:-}"
-export AUX_DIR="${CONDA_PREFIX}/share/auxdir"
+export _OLD_AUX_PATH="${ELEMENTS_AUX_PATH:-}"
+export ELEMENTS_AUX_PATH="${CONDA_PREFIX}/share/auxdir"

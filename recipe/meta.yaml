@@ -1,7 +1,7 @@
 {% set name = "phz_nnpz" %}
 {% set version = "1.4.4" %}
 {% set tagversion = "release-1.4" %}
-{% set build_number = 5 %}
+{% set build_number = 6 %}
 
 package:
     name: {{ name|lower }}
@@ -30,12 +30,14 @@ requirements:
         - libcxx
     host:
         - python
-        - boost 
+        - boost-cpp 
         - libcxx
+        - log4cpp >=1.1.3
         - alexandria ==2.32.2
         - cfitsio >=3.470
         - CCfits >=2.5
         - pybind11 >=2.6
+        - pybind11-global
         - lxml
     run:
         - {{ pin_compatible('python', min_pin='x.x', max_pin='x.x') }}
